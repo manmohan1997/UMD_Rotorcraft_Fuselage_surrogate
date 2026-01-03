@@ -5,3 +5,6 @@ plotly
 joblib
 tensorflow
 scikit-learn
+trimesh
+meshio
+rtree
