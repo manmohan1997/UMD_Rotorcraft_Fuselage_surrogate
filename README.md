@@ -12,13 +12,9 @@
   * **y-axis**: width direction
   * **z-axis**: height direction
 
-This orientation and scaling are required for correct geometry extraction, breakpoint identification, and surrogate prediction. The expected coordinate convention is illustrated below.
-
-![Fuselage coordinate system and orientation](fuselage_axes.png)
-
----
-
-This is a web-based tool for predicting the aerodynamic coefficients of helicopter fuselages. It was developed at the Alfred Gessow Rotorcraft Center (AGRC) to provide a fast alternative to CFD for initial design phases.
+This orientation and scaling are required for correct geometry extraction, breakpoint identification, and surrogate prediction.
+This is a web-based tool for predicting the aerodynamic coefficients of helicopter fuselages. 
+It was developed at the Alfred Gessow Rotorcraft Center (AGRC) to provide a fast alternative to CFD for initial design phases.
 
 The app takes an STL or VTU file, processes the geometry using a Genetic Algorithm to find key breakpoints, and then uses a trained Neural Network (POD-based) to give you CL, CD, and CM polars.
 
