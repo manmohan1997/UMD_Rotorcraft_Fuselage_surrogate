@@ -31,10 +31,6 @@ def find_critical_points(f_prime, f_double_prime):
 
     return critical_indices, extrema_indices_first, extrema_indices_second
 
-# def create_segments(crit_points, x_values_length):
-#     comb_indices = [0] + crit_points + [x_values_length - 1]
-#     sgmnts = [(comb_indices[i], comb_indices[i + 1]) for i in range(len(comb_indices) - 1)]
-#     return sgmnts
 
 def create_segments(critical_points, x_values_length):
     # Ensure critical_points is a list of integers
